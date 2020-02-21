@@ -1,0 +1,144 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background: url("img/brickwall.png");
+	/* Background pattern from Toptal Subtle Patterns */
+	font-family: 'Open Sans', sans-serif;
+}
+
+header
+{
+	width: 1028px;
+	border: 2px solid #ff522f;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+h1
+{
+	text-align: center;
+	margin: 0;
+	color: #ff522f;
+}
+
+.menu
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 248px;
+	text-align: center;
+	padding: 2px 0 2px 0;
+	border: 2px solid #ff522f;
+}
+
+.menu > li
+{
+	display: inline-block;
+	font-size: 20px;
+	border: 2px solid #ff522f;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color: #cc200c;
+	font-weight: 500;
+}
+
+.menu a:hover
+{
+	color: #880008;
+}
+
+#ogolem
+{
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #ff522f;
+	margin-bottom: 10px;
+}
+
+#historia
+{
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #ff522f;
+	margin-bottom: 10px;
+}
+
+#budowa
+{
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #ff522f;
+	margin-bottom: 10px;
+}
+
+.txt
+{
+	float: left;
+	text-align: justify;
+	width: 658px;
+	min-height: 302px;
+	padding: 10px;
+	border: 2px solid #ff522f;
+	border-right: none;
+}
+
+.img
+{
+	float: left;
+	width: 302px;
+	height: 302px;
+	padding: 10px;
+	border: 2px solid #ff522f;
+	border-left: 2px dashed #ff522f;
+}
+
+.img img
+{
+	height: 300px;
+	width: 300px;
+	border: 2px solid #ff522f;
+}
+
+.sklad
+{
+	margin-bottom: 0;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.sklad > li:before
+{
+	content: "+";
+	margin-right: 5px;
+	color: #000;
+	font-weight: 900;
+	font-size: 20px;
+	background-color: #fff;
+}
+
+footer
+{
+	width: 1028px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #ff522f;
+	text-align: center;
+}
