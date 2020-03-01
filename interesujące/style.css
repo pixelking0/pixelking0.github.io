@@ -1,0 +1,151 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	margin: 0;
+	background-color: #115991;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	color: #ddd;
+	
+}
+
+h1
+{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+/*header body*/
+
+h1.logo
+{
+	text-transform: uppercase;
+	text-align: center;
+	color: #ccc;
+	font-size: 90px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+.mainnav
+{
+	text-align: center;
+	background-color: #006CBF;
+	min-height: 36px;
+	line-height: 200%;
+}
+
+.menu
+{
+	list-style-type: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.menu > li
+{
+	display: inline-block;
+	border-right: 2px solid #115991;
+	padding-top: 2px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.menu > li:first-child
+{
+	border-left: 2px solid #115991;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color: #ddd
+}
+
+.menu a:hover
+{
+	color: #bbb
+}
+
+.kategorie img
+{
+	width: 320px;
+	height: 213px;
+}
+
+.opcja
+{
+	display: inline-block;
+}
+
+.opcja > figure
+{
+	margin-bottom: 3px;
+}
+
+.opcja a
+{
+	opacity: 0.9;
+}
+
+.opcja a:hover
+{
+	opacity: 1;
+}
+
+/*main*/
+
+header.inny
+{
+	background-color: #117dcF;
+}
+
+#ogolem
+{
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#sporty
+{
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#historia
+{
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#historia > figure > figcaption
+{
+	text-align: justify;
+}
+.footer
+{
+	text-align: center;
+	background-color: #117dcF;
+}
+
+
+
+
+
+
+
+
+
+
+
