@@ -1,0 +1,58 @@
+body
+{
+	background: url(../img/webb/webb/webb.png);
+	/* Background pattern from Toptal Subtle Patterns */
+	font-family: 'Pacifico';
+}
+
+header
+{
+	background: url(../img/webb-dark/webb-dark/webb-dark.png);
+	color: #fff;
+	text-align: center;
+}
+
+.container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text
+{
+	float: left;
+	font-family: 'Lato';
+	min-height: 446px;
+	width: 446px;
+	border: 2px solid #000;
+	border-radius: 5%;
+	background: url(../img/webb-dark/webb-dark/webb-dark.png);
+	font-size: 15px;
+	text-align: left;
+	color: #fff;
+}
+
+.img
+{
+	float: left;
+	margin-left: 20px;
+}
+
+.img img
+{
+	width: 446px;
+	height: 446px;
+	border: 2px solid #000;
+	border-radius: 5%;
+}
+
+footer
+{
+	background: url(../img/webb-dark/webb-dark/webb-dark.png);
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	margin-top: 10px;
+}
+
