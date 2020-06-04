@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Page Title</title>
+		
+		<meta charset="UTF-8">
+		<meta name="author" content="Aleksander Czarnowski">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		
+		<script>
+		
+		var nr = Math.floor(Math.random()*5)+1;
+		var timer = 0;
+		
+		function zmien()
+		{
+			nr++; if(nr>5) nr=1;
+			
+			var plik = "<img src=\"slajdy/slajd" + nr + ".jpg\" />";
+			
+			document.getElementById("slider").innerHTML = plik;
+			
+			timer = setTimeout("zmien()", 5000);
+		}
+		
+	</script>
+		
+	</head>
+	<body onload="zmien()">
+	
+	<div id="side">
+			
+			<a href="#about" style="background-color: #20948B;">Jelitkowo</a>
+			<a href="#what" style="background-color: #4D85CF;">Sobieszewo</a>
+			<a href="#original" style="background-color: #1995AD;">Sopot</a>
+			<a href="#polish" style="background-color: #5C9A1A;">Międzyzdroje</a>
+			
+		</div>
+	
+	<div class="container">
+		
+		<div id="header">
+			
+			<h1><img src="img/ikona.jpg" />Plażing, leżing</h1>
+			
+		</div>
+		
+		
+		<h2 id="aboutHeader" class="headers">----Jelitkowo----</h2>
+			
+		<div id="about" class="divs">
+		
+			<p>Tak wiem, to nie brzmi za specjalnie, szczególne na początek, ale nazwa nie pochodzi od jelit.
+			W dniu 28 marca 1949 ustalono urzędową polską nazwę miejscowości – Jelitkowo.
+			Nazwa prawdopodobnie wywodzi się od nazwiska pierwszego właściciela i założyciela osady – Jelitko.
+			Jelitkowo położone jest na północnym krańcu Gdańska nad Zatoką Gdańską, nad Potokiem Oliwskim w miejscu jego ujścia do Zatoki.
+			Na plaży zorganizowano letnie kąpielisko morskie Gdańsk Jelitkowo, obejmujące 200 m linii brzegowej na wysokości wejścia na plażę nr 71 i 73<br/><br/>
+			
+			Obiekty turystyczne:<br/>
+			-Park Jelitkowski<br/>
+			-stare domy rybackie z XVIII/XIX wieku<br/>
+			-hotele: Posejdon, Marina oraz domy wczasowe i kempingi<br/>
+			-wielokilometrowa ścieżka rowerowa ciągnąca się od Sopotu do Brzeźna
+			
+			</p>
+			
+		</div>
+		
+		
+		<h2 id="whatHeader" class="headers" data-aos="fade-left">----Sobieszewo----</h2>
+		
+		<div id="what" class="divs">
+			
+			<p>Wyspa Sobieszewska to spokojne miejsce z widokiem na Zatokę Gdańską. Campingi i hotele stoją na tyłach rozległej plaży, która cieszy się popularnością ze względu na boiska do siatkówki i wypożyczalnie łodzi oraz sprzętu do sportów wodnych. W przyjaznych rodzinom knajpkach na świeżym powietrzu można zjeść ryby, pierogi i lody. Przez słone mokradła rezerwatu Ptasi Raj wiją się szlaki przyrodnicze , a w rezerwacie przyrodniczym Mewia Łacha można zobaczyć foki i kolonie ptaków wędrownych.</p>
+			
+		</div>
+		
+		<h2 id="originalHeader" class="headers" data-aos="fade-right">----Sopot----</h2>
+		
+		<div id="original" class="divs">
+			
+			<p> Miasto na prawach powiatu w północnej Polsce nad Zatoką Gdańską (Morze Bałtyckie), położone na Pobrzeżu Gdańskim, między Gdańskiem a Gdynią, z którymi tworzy Trójmiasto, w obrębie aglomeracji trójmiejskiej. Jest najmniejszym pod względem liczby ludności miastem na prawach powiatu w Polsce oraz najmniejszym pod tym samym względem miastem, którego organem władzy wykonawczej jest prezydent (a nie burmistrz). Sopot jest kurortem nadmorskim i uzdrowiskiem, po II wojnie światowej znanym z organizowanych tam od 1961 w Operze Leśnej konkursów piosenki Sopot Festival. Miasto posiada najdłuższe w Europie molo o drewnianej konstrukcji.</p>
+			
+		</div>
+		
+		
+		<h2 id="polishHeader" class="headers" data-aos="fade-left">----Międzyzdroje----</h2>
+		
+		<div id="polish" class="divs">
+			
+			<p>„Na atrakcyjność turystyczną Międzyzdrojów wpływa położenie geograficzno-przyrodnicze. Na obszarze miasta ustalono 2 kąpieliska nadmorskie, tj. kąpielisko Międzyzdroje Zachód (od mola na zachód 500 m) z wyłączeniem 50 metrowego pasa bezpieczeństwa oraz kąpielisko Międzyzdroje Wschód (od mola na wschód 500 m). Walorami turystycznymi miasta są: położenie nad morzem, piaszczyste plaże, wzniesienia w Paśmie Wolińskim, bliskość Wolińskiego Parku Narodowego, historyczne zabudowania uzdrowiskowe i Park Zdrojowy w nadmorskiej części miasta.</p>
+			
+		</div>
+	
+	</div>
+	
+	<div id="slider"></div>
+	
+	<div id="footer">Prawa nie są zastrzeżone, ponieważ tekst i obrazy pochodzą z wikipedii.</div>
+	
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init({offset: 200, duration: 1000});
+	</script>
+  
+	</body>
+</html>
